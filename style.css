@@ -60,7 +60,7 @@ p {
 
 .result-container {
     background-color: hsl(241, 81%, 54%);
-    background-image: linear-gradient(hsla(252, 100%, 67%, 70%),hsl(241, 81%, 54%));
+    background-image: linear-gradient(hsla(252, 100%, 67%, 0.719),hsl(241, 81%, 54%));
     flex-basis: 50%;
     text-align: center;
     display: flex;
@@ -73,8 +73,13 @@ p {
     color: hsl(0, 0%, 100%);
 }
 
+.result-container p {
+    color: hsla(222, 100%, 96%, 0.753);
+}
+
 .result-score {
-    background-color: hsla(256, 72%, 46%, 1);
+    background-color: hsla(241, 72%, 46%, 0);
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     height: 170px;
     width: 170px;
     display: flex;
@@ -86,9 +91,11 @@ p {
 
 }
 
+
 .result-score p {
     font-size: 15px;
     margin-top: -10px;
+    color: hsla(222, 100%, 96%, 0.514);
 
 }
 
@@ -98,6 +105,16 @@ p {
 
 
 .summary-container {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(224, 30%, 27%);
+}
+
+.summary-container h2 {
+    align-self: start;
 
 }
 
