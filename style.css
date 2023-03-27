@@ -11,7 +11,28 @@ html, body {
     -ms-user-select: none; /**disables text selection**/
     user-select: none; /**disables text selection**/
     background-color:  hsl(0, 0%, 100%);
+    font-size: 16px;
 }
+
+/* Small screens */
+@media (max-width: 576px) {
+    /* CSS styles for small screens */
+  }
+  
+  /* Medium screens */
+  @media (min-width: 576px) and (max-width: 992px) {
+    /* CSS styles for medium screens */
+  }
+  
+  /* Large screens */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* CSS styles for large screens */
+  }
+  
+  /* Extra-large screens */
+  @media (min-width: 1200px) {
+    /* CSS styles for extra-large screens */
+  }
 
 h1 {
     font-weight: 800;
